@@ -22,6 +22,7 @@ passwd user_name
 #the number of days n after which to display a message about the need to change the password 
 -w n 
 ```
+The passwd command changes some of the entries in the /etc/passwd file.
 
 ## 3) Determine the users registered in the system, as well as what commands they 
 execute. What additional information can be gleaned from the command 
