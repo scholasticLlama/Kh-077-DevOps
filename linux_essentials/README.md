@@ -7,8 +7,23 @@ sudo -s
 sudo su
 ```
 ## 2) Use the passwd command to change the password. Examine the basic parameters of the command. What system file does it change?
+```bash
+#change user password
+passwd user_name
+#basic parameters 
+#delete user password
+-d
+#make the password obsolete
+-e
+#lock the account if the user has not changed the password in n days
+-i n 
+#the maximum number of days n that the user's password is valid
+-x n
+#the number of days n after which to display a message about the need to change the password 
+-w n 
+```
 
-3) Determine the users registered in the system, as well as what commands they 
+## 3) Determine the users registered in the system, as well as what commands they 
 execute. What additional information can be gleaned from the command 
 execution? 
 4) Change personal information about yourself. 
