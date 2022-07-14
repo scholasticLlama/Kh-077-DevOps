@@ -39,15 +39,13 @@ passwd
 ## 5) Become familiar with the Linux help system and the man and info commands. Get help on the previously discussed commands, define and describe any two keys for these commands. Give examples. 
 ```bash
 Command info gives more detailed information about the command rather than *man*.
-Usege of man:
 ```
 
 ```console
+#Usege of man:
 student@CsnKhai:~$ man passwd
-```
 
-```bash
-Part of result:
+#Part of result:
 -a, --all
            This option can be used only with -S and causes show status
            for all users.
