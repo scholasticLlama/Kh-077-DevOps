@@ -26,7 +26,7 @@ The passwd command changes some of the entries in the /etc/passwd file.
 
 ## 3) Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
 ```bash
-Use w command to provide a list of currently active users including idle time and what command they most recently ran. Or for currently logged in users, you can also use commands like ps -ef | grep ^username to see what commands and processes a user is currently running.
+Use w command to provide a list of currently active users or ps -ef | grep ^username to see commands and processes a user is currently running.
 ```
 <img id="theImage" src="./pictures/login.jpg">
 
