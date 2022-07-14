@@ -68,7 +68,7 @@ student@CsnKhai:~$ less --help
 #Usage of less:
 student@CsnKhai:~$ less --help.bash*
 ```
-<img id="theImage" src="./picture/less.jpg">
+<img id="theImage" src="./pictures/less.jpg">
 
 ```console
 #Usage of more:
