@@ -24,17 +24,41 @@ passwd user_name
 ```
 The passwd command changes some of the entries in the /etc/passwd file.
 
-## 3) Determine the users registered in the system, as well as what commands they 
-execute. What additional information can be gleaned from the command 
-execution? 
-4) Change personal information about yourself. 
-5) Become familiar with the Linux help system and the man and info commands. 
-Get help on the previously discussed commands, define and describe any two 
-keys for these commands. Give examples. 
-6) Explore the more and less commands using the help system. View the contents 
-of files .bash* using commands. 
-7) * Describe in plans that you are working on laboratory work 1. Tip: You should 
-read the documentation for the finger command. 
-8) * List the contents of the home directory using the ls command, define its files 
-and directories. Hint: Use the help system to familiarize yourself with the ls 
-command. 
+## 3) Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution? 
+
+## 4) Change personal information about yourself.
+```bash
+#change personal information displayed by finger
+chfn
+#change your login shell
+chsh
+#change the user's password
+passwd
+```
+
+## 5) Become familiar with the Linux help system and the man and info commands. Get help on the previously discussed commands, define and describe any two keys for these commands. Give examples. 
+```bash
+Command info gives more detailed information about the command rather than *man*.
+Usege of man:
+```console
+student@CsnKhai:~$ man passwd
+```bash
+-a, --all
+           This option can be used only with -S and causes show status
+           for all users.
+
+-d, --delete
+           Delete a user`\`s password (make it empty). This is a quick way
+           to disable a password for an account. It will set the named
+           account passwordless.
+
+```console
+student@CsnKhai:~$ man passwd
+```
+
+
+## 6) Explore the more and less commands using the help system. View the contents of files .bash* using commands. 
+
+## 7) * Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command. 
+
+## 8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command. 
