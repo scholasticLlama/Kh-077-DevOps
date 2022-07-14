@@ -24,7 +24,11 @@ passwd user_name
 ```
 The passwd command changes some of the entries in the /etc/passwd file.
 
-## 3) Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution? 
+## 3) Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
+```bash
+Use w command to provide a list of currently active users including idle time and what command they most recently ran. Or for currently logged in users, you can also use commands like ps -ef | grep ^username to see what commands and processes a user is currently running.
+```
+<img id="theImage" src="./pictures/login.jpg">
 
 ## 4) Change personal information about yourself.
 ```bash
@@ -66,14 +70,18 @@ student@CsnKhai:~$ less --help
 ```
 ```console
 #Usage of less:
-student@CsnKhai:~$ less --help.bash*
+student@CsnKhai:~$ less .bash*
 ```
 <img id="theImage" src="./pictures/less.jpg">
 
 ```console
 #Usage of more:
-student@CsnKhai:~$ less --help.bash*
+student@CsnKhai:~$ more .bash*
 ```
-## 7) * Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command. 
+<img id="theImage" src="./pictures/more.jpg">
 
-## 8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command. 
+## 7) * Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command. 
+<img id="theImage" src="./pictures/finger.jpg">
+
+## 8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command.
+<img id="theImage" src="./pictures/ls.jpg">
