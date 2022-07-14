@@ -1,10 +1,10 @@
 # Task1.Part1 
-## 1)Log in to the system as root.  
-```bash
-#switch to administrator without changing the current directory
-sudo -s
+## 1) Log in to the system as root.  
+```console
+##switch to administrator without changing the current directory
+student@CsnKhai:~$ sudo -s
 #switch to admin (#)
-sudo su
+student@CsnKhai:~$ sudo su
 ```
 ## 2) Use the passwd command to change the password. Examine the basic parameters of the command. What system file does it change?
 ```bash
@@ -38,11 +38,13 @@ passwd
 
 ## 5) Become familiar with the Linux help system and the man and info commands. Get help on the previously discussed commands, define and describe any two keys for these commands. Give examples. 
 ```bash
-Command info gives more detailed information about the command rather than *man*.
+Command info gives more detailed information about the command rather than man.
 ```
 
 ```console
-#Usege of man:
+#Usage of man:
+student@CsnKhai:~$ man passwd
+#Usage of info:
 student@CsnKhai:~$ man passwd
 
 #Part of result:
@@ -57,13 +59,21 @@ student@CsnKhai:~$ man passwd
 
 ```
 
-```console
-student@CsnKhai:~$ man passwd
-```
-
-
 ## 6) Explore the more and less commands using the help system. View the contents of files .bash* using commands. 
+```console
+#Usage of help to find out what command about:
+student@CsnKhai:~$ less --help
+```
+```console
+#Usage of less:
+student@CsnKhai:~$ less --help.bash*
+```
+<img id="theImage" src="./picture/less.jpg">
 
+```console
+#Usage of more:
+student@CsnKhai:~$ less --help.bash*
+```
 ## 7) * Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command. 
 
 ## 8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command. 
