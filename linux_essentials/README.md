@@ -110,11 +110,26 @@ List subdirectories including the 2nd nesting level
 <img id="theImage" src="./pictures/secondLevel.jpg">
 
 ## 2) What command can be used to determine the type of file (for example, text or binary)? Give an example. 
-
+```console
+#file command with -b option uses to show just the file type pass.
+student@CsnKhai:~$ file -b file.txt
+```
 ## 3) Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory from anywhere in the filesystem? 
+```console
+#To go back to the home directory
+student@CsnKhai:~$ cd ~
+```
 
 ## 4) Become familiar with the various options for the ls command. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches. 
-
+```bash
+ls directory_name - display the contents of the directory
+Main keys:
+-a displaying information about all files, including hidden ones
+<img id="theImage" src="./pictures/ls_a.jpg">
+-t sorting the displayed list by time
+-R displaying the list recursively by subdirectories
+-l displaying information about files in long format (file type, access rights, owner, group, size in bytes, modification date, file name)
+```
 5) Perform the following sequence of operations: 
 - create a subdirectory in the home directory; 
 - in this subdirectory create a file containing information about directories 
