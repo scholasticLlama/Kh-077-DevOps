@@ -102,7 +102,7 @@ Displaying all files that contain a character c
 ```bash
 Displaying all files that contain a specific sequence of characters ("pla") 
 ```
-<img id="theImage" src="./pictures/containSqe.jpg">
+<img id="theImage" src="./pictures/containSeq.jpg">
 
 ```bash
 List subdirectories including the 2nd nesting level
