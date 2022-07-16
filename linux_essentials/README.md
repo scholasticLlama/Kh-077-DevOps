@@ -176,4 +176,14 @@ root@CsnKhai:~# ls -a /root/ 1>files/info.log
 <img id="theImage" src="./pictures/rm_file.jpg">
 
 ## 6) Perform the following sequence of operations: 
-- create a subdirectory test in the home directory; 
+- create a subdirectory test in the home directory;
+- copy the .bash_history file to this directory while changing its name to 
+labwork2; 
+- create a hard and soft link to the labwork2 file in the test subdirectory; 
+- how to define soft and hard link, what do these 
+concepts; 
+- change the data by opening a symbolic link. What changes will happen and 
+why 
+- rename the hard link file to hard_lnk_labwork2; 
+- rename the soft link file to symb_lnk_labwork2 file; 
+- then delete the labwork2. What changes have occurred and why? 
