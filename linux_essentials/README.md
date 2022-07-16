@@ -176,14 +176,21 @@ root@CsnKhai:~# ls -a /root/ 1>files/info.log
 <img id="theImage" src="./pictures/rm_file.jpg">
 
 ## 6) Perform the following sequence of operations: 
-- create a subdirectory test in the home directory;
-- copy the .bash_history file to this directory while changing its name to 
-labwork2; 
-- create a hard and soft link to the labwork2 file in the test subdirectory; 
-- how to define soft and hard link, what do these 
-concepts; 
-- change the data by opening a symbolic link. What changes will happen and 
-why 
+```console
+#create a subdirectory test in the home directory;
+student@CsnKhai:~$ mkdir test
+#copy the .bash_history file to this directory while changing its name to labwork2; 
+student@CsnKhai:~$ cp .bash_history test/labwork2
+#create a hard and soft link to the labwork2 file in the test subdirectory; 
+```
+<img id="theImage" src="./pictures/link.jpg">
+
+```console
+#how to define soft and hard link, what do these concepts; 
+A soft (symbolic) link is an actual link to the original file, whereas a hard link is a mirror copy of the original file.
+If you delete the original file, the soft link has no value, because it points to a non-existent file.
+
+#change the data by opening a symbolic link. What changes will happen and why 
 - rename the hard link file to hard_lnk_labwork2; 
 - rename the soft link file to symb_lnk_labwork2 file; 
 - then delete the labwork2. What changes have occurred and why? 
