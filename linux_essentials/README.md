@@ -140,18 +140,40 @@ Main keys:
 
 ```bash
 -l displaying information about files in long format
-Long format includes file type, access rights, owner, group, size in bytes, modification date, file name
+Long format includes:
+The first column gives the type of the file (directory or file) and the file permissions.
+The second column is the number of links to the file.
+The third and fourth columns are the user who owns the file and the Unix group of users to which the file belongs.
+The fifth column is the size of the file in bytes.
+The next three columns are the time at which the file was last changed.
+The last column is the name of the file.
 ```
 <img id="theImage" src="./pictures/ls_l.jpg">
 
-5) Perform the following sequence of operations: 
-- create a subdirectory in the home directory; 
-- in this subdirectory create a file containing information about directories 
-located in the root directory (using I/O redirection operations); 
-- view the created file; 
-- copy the created file to your home directory using relative and absolute 
-addressing. 
-- delete the previously created subdirectory with the file requesting removal; 
-- delete the file copied to the home directory. 
-6) Perform the following sequence of operations: 
+## 5) Perform the following sequence of operations: 
+```console
+#create a subdirectory in the home directory; 
+student@CsnKhai:~$ mkdir files
+#in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);
+root@CsnKhai:~# ls -a /root/ 1>files/info.log
+#view the created file; 
+```
+<img id="theImage" src="./pictures/fillFile.jpg">
+
+```console
+#copy the created file to your home directory using relative and absolute addressing.
+```
+<img id="theImage" src="./pictures/copy.jpg">
+
+```console
+#delete the previously created subdirectory with the file requesting removal;
+```
+<img id="theImage" src="./pictures/rm_dir.jpg">
+
+```console
+#delete the file copied to the home directory. 
+```
+<img id="theImage" src="./pictures/rm_file.jpg">
+
+## 6) Perform the following sequence of operations: 
 - create a subdirectory test in the home directory; 
