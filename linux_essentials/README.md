@@ -154,7 +154,7 @@ The last column is the name of the file.
 ```console
 #create a subdirectory in the home directory; 
 student@CsnKhai:~$ mkdir files
-#in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);
+#in this subdirectory create a file containing information about directories located in the root directory;
 root@CsnKhai:~# ls -a /root/ 1>files/info.log
 #view the created file; 
 ```
