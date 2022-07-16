@@ -85,3 +85,44 @@ student@CsnKhai:~$ more .bash*
 
 ## 8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command.
 <img id="theImage" src="./pictures/ls.jpg">
+
+
+# Task1.Part2 
+## 1) Examine the tree command. Master the technique of applying a template, for example, display all files that contain a character c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level.
+```bash
+Calling tree comand
+```
+<img id="theImage" src="./pictures/tree.jpg">
+
+```bash
+Displaying all files that contain a character c
+```
+<img id="theImage" src="./pictures/containC.jpg">
+
+```bash
+Displaying all files that contain a specific sequence of characters ("pla") 
+```
+<img id="theImage" src="./pictures/containSqe.jpg">
+
+```bash
+List subdirectories including the 2nd nesting level
+```
+<img id="theImage" src="./pictures/secondLevel.jpg">
+
+## 2) What command can be used to determine the type of file (for example, text or binary)? Give an example. 
+
+## 3) Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory from anywhere in the filesystem? 
+
+## 4) Become familiar with the various options for the ls command. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches. 
+
+5) Perform the following sequence of operations: 
+- create a subdirectory in the home directory; 
+- in this subdirectory create a file containing information about directories 
+located in the root directory (using I/O redirection operations); 
+- view the created file; 
+- copy the created file to your home directory using relative and absolute 
+addressing. 
+- delete the previously created subdirectory with the file requesting removal; 
+- delete the file copied to the home directory. 
+6) Perform the following sequence of operations: 
+- create a subdirectory test in the home directory; 
