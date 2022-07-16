@@ -125,11 +125,25 @@ student@CsnKhai:~$ cd ~
 ls directory_name - display the contents of the directory
 Main keys:
 -a displaying information about all files, including hidden ones
-<img id="theImage" src="./pictures/ls_a.jpg">
--t sorting the displayed list by time
--R displaying the list recursively by subdirectories
--l displaying information about files in long format (file type, access rights, owner, group, size in bytes, modification date, file name)
 ```
+<img id="theImage" src="./pictures/ls_a.jpg">
+
+```bash
+-t sorting the displayed list by time
+```
+<img id="theImage" src="./pictures/ls_t.jpg">
+
+```bash
+-R displaying the list recursively by subdirectories
+```
+<img id="theImage" src="./pictures/ls_R.jpg">
+
+```bash
+-l displaying information about files in long format
+Long format includes file type, access rights, owner, group, size in bytes, modification date, file name
+```
+<img id="theImage" src="./pictures/ls_l.jpg">
+
 5) Perform the following sequence of operations: 
 - create a subdirectory in the home directory; 
 - in this subdirectory create a file containing information about directories 
